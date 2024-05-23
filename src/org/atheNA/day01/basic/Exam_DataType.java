@@ -27,9 +27,9 @@ public class Exam_DataType {
 //		int iNum = 2147483647;
 //		long lNum = 2147483648l;
 //		// 실수 part
-//		float fNum = 23.026f;
+		float fNum = 23.026f;
 //		double dNum = 23.026;
-		
+		System.out.println(fNum);
 		
 	}
 }

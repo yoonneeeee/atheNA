@@ -16,8 +16,20 @@ public class Exam_PrintSample {
 		int num = sc.nextInt();
 		
 		// printf() 메소드
-		System.out.printf(" 정수 출력 : %d", 57);
-		
+		System.out.printf(" 정수 출력 : %d\n", 57);
+        int age = 10;        
+        String addr = "서울";
+        
+        //'%n'지시자를 사용 안 했을 경우
+        System.out.print("줄바꿈 기능");
+        System.out.println("없음.");
+        
+        //'%n'지시자를 사용한 경우
+        System.out.print("줄바꾸기\n");
+        System.out.print("성공!\n");
+        
+        System.out.printf("내 나이는 %d살 입니다.\n",age);
+        System.out.printf("내 나이는 %d살 이고 %s에 살고 있습니다.%n",age,addr);
 	}
 }
  

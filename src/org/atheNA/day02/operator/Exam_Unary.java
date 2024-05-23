@@ -56,6 +56,21 @@ public class Exam_Unary {
 		System.out.println(y);
 		System.out.println(z);
 		System.out.println("x : "+x+", y : "+y+", z : "+z);
+		
+		int i=2, j=0;
+		 System.out.println("i="+i+", j="+j);
+		     //j=++i;   
+		 i++;
+		 j=i;
+		     System.out.println("j=++i 실행후");
+		     System.out.println("i="+i+", j="+j);
+		     System.out.println("------초기화------ ");
+		     i=2; j=0;
+		     System.out.println("i="+i+", j="+j);
+		     j=i;
+		     i++;
+		     System.out.println("j=i++ 실행후");
+		     System.out.println("i="+i+", j="+j);
 	}
 
 }

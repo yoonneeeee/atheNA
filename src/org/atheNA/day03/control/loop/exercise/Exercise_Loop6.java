@@ -11,12 +11,7 @@ public class Exercise_Loop6 {
 		// 5단부터 9단까지 출력
 		// 단을 입력하세요 : 10
 		// 9 이하의 숫자만 입력해주세요.
-		Scanner sc = new Scanner(System.in);
-		System.out.print("단을 입력하세요 : ");
-		int dan = sc.nextInt();
-		for(int i =2)
-		
-		
+
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("정수 하나 입력 : ");
@@ -25,7 +20,6 @@ public class Exercise_Loop6 {
 			for (int i = 2; i < 10; i++) {
 				System.out.println(dan + " * " + i + " = " + dan * i);
 			}
-
 		} else {
 			System.out.println("9 이하의 숫자만 입력해주세요.");
 		}
