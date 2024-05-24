@@ -21,13 +21,10 @@ public class Exam_Array {
 		System.out.println(nums[8]);
 		System.out.println(nums[9]);
 		System.out.println(nums.length);	// 배열의 갯수를 확인하고 싶을 때 사용하는 것 
-//		System.out.println(nums[10]);
+
 		
 		for(int i = 0; i < 10 ; i++) {
 			System.out.println(nums[i]);
 		}
-
-		
-		
 	}
 }
