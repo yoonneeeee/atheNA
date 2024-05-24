@@ -12,9 +12,9 @@ public class Exercise_Exception1 {
 			int result = 0;
 			try {
 				Scanner sc = new Scanner(System.in);
-				System.out.print("정수 첫번채 : ");
+				System.out.print("정수 첫번째 : ");
 				int num1 = sc.nextInt();
-				System.out.print("정수 두번채 : ");
+				System.out.print("정수 두번째 : ");
 				int num2 = sc.nextInt();
 				result = num1 / num2;
 
