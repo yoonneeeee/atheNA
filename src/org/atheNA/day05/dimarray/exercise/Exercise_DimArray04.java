@@ -1,6 +1,6 @@
-package org.atheNA.day05.dimarray.practice;
+package org.atheNA.day05.dimarray.exercise;
 
-public class Practice_DimArray04 {
+public class Exercise_DimArray04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

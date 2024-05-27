@@ -1,6 +1,6 @@
-package org.atheNA.day05.dimarray.practice;
+package org.atheNA.day05.dimarray.exercise;
 
-public class Practice_DimArray03 {
+public class Exercise_DimArray03 {
 
 	public static void main(String[] args) {
 		//	1	6	//15	20	25  
