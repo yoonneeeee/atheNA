@@ -16,8 +16,11 @@ class StaticSample {
 public class Exam_Static {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		StaticSample.input = 1023;
+		System.out.println(StaticSample.input);
+		
+		
 		StaticSample.originMethod();
 		System.out.println(StaticSample.input);
 //		StaticSample smp = new StaticSample();

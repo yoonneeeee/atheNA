@@ -10,7 +10,7 @@ public class Circle {
 		this.radius = radius;
 	}
 	
-	// 넓이구하기
+	// 넓이구하기 메소드
 	public double getArea() {
 		// return을 쓰면 public 옆에
 		// 리턴값과 같은 데이터타입을 써야함.

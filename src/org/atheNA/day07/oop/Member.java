@@ -22,3 +22,5 @@ public class Member {
 	public void sendMessage() {}
 	public void doPromise() {}
 }
+
+

@@ -19,7 +19,6 @@ public class Exercise_Exception1 {
 				result = num1 / num2;
 
 			} catch (ArithmeticException e) {
-				// TODO: handle exception
 				System.out.println("0으로 나눌 수 없습니다.");
 				continue;
 			}
